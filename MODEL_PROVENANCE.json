@@ -1,0 +1,39 @@
+{
+  "id": "tb1510",
+  "model": "TB-1510",
+  "modelSourceCategory": "原厂模型（人工整理材质和观察分组）",
+  "selfBuilt3DMechanismInCurrentRuntime": false,
+  "twoDimensionalPrinciple": "本项目程序绘制的二维教学示意，不是原厂工程图",
+  "factoryInputs": [
+    {
+      "file": "E:\\vibecoding\\数字教材相关\\模型\\TB-1510接线端子三维模型202011.stp",
+      "name": "TB-1510接线端子三维模型202011.stp",
+      "sha256": "06d77974b8fd0f5cbd93d88b3ebbd9a3e76442aeda12620ab13f470e4f792cdb",
+      "role": "原厂原始CAD",
+      "url": "https://www.chint.net/products/136"
+    }
+  ],
+  "factoryTriangles": 460610,
+  "sourceFullSha256": "2f1151ad505b89751576f5fe3fe6566d9668ad9b3613d8afb97719eda780de15",
+  "humanChanges": "原曲面观察编组、材质与灯光整理；不将其称作原厂材料实测或厂家维修拆装树。",
+  "unavailableOrUnverifiedInternalData": "原厂源中已有底座、透明盖、导电片和螺钉；该接线器件无需另造隐藏动作机构。",
+  "files": [
+    {
+      "file": "assets/model-266a47062be3.glb",
+      "category": "原厂几何压缩运行模型"
+    },
+    {
+      "file": "E:\\vibecoding\\数字教材相关\\outputs\\原厂模型真实性核查_20261020\\tb1510\\factory-only\\model-factory-full.glb",
+      "category": "原厂几何完整制作GLB"
+    },
+    {
+      "file": "E:\\vibecoding\\数字教材相关\\outputs\\原厂模型真实性核查_20261020\\tb1510\\factory-only\\tb1510-factory-only.blend",
+      "category": "原厂几何可编辑Blender"
+    },
+    {
+      "file": "app.js",
+      "category": "本项目交互与二维示意程序"
+    }
+  ],
+  "legacyMixedSource": "E:\\vibecoding\\数字教材相关\\outputs\\元器件全集制作\\tb1510\\sources\\model-full.glb"
+}
