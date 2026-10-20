@@ -12,9 +12,9 @@
     0,
     0
   ],
-  "subtitle": "拆开保护盖，认清每一路的导电片。",
-  "summary": "接线端子用于导线间的连接。TB 系列采用螺钉压接方式，导线端头需压接合适的接线鼻。",
-  "behavior": "选择任一路高亮导电片，可以看到该路两端连接。相邻路通过绝缘结构隔开，不是整排互相连通。",
+  "subtitle": "揭开透明盖，逐路观察原厂导电片、两侧螺钉与绝缘隔板。",
+  "summary": "全部62个原网格保留；保护盖、十路接线单元与绝缘底座分开观察，同路螺丝和导电片一起移动。",
+  "behavior": "同一路两个接线端由导电片连接，不同路之间保持绝缘；下方按钮更新二维回路示意。",
   "actions": [
     [
       "connect",
@@ -1460,10 +1460,10 @@
   "factoryGroups": [
     {
       "id": "cover",
-      "title": "原厂保护盖",
-      "description": "原厂 STEP 中实际存在的几何部件",
-      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
-      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
+      "title": "原厂透明保护盖",
+      "description": "原厂独立护盖",
+      "summary": "透明塑料护盖沿正面法向抬起；底座、接线片与螺钉均为原厂文件已有几何。",
+      "behavior": "保护盖不导电；工作回路见独立二维示意。",
       "members": [
         "factory_062"
       ],
@@ -1474,82 +1474,14 @@
       ]
     },
     {
-      "id": "conductors",
-      "title": "原厂导电片",
-      "description": "原厂 STEP 中实际存在的几何部件",
-      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
-      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
+      "id": "channel-1",
+      "title": "第1路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
       "members": [
-        "factory_002",
-        "factory_003",
-        "factory_008",
-        "factory_009",
-        "factory_014",
-        "factory_015",
-        "factory_020",
-        "factory_021",
-        "factory_026",
-        "factory_027",
-        "factory_032",
-        "factory_033",
-        "factory_038",
-        "factory_039",
-        "factory_044",
-        "factory_045",
-        "factory_050",
-        "factory_051",
         "factory_056",
-        "factory_057"
-      ],
-      "offset": [
-        0,
-        0,
-        12
-      ]
-    },
-    {
-      "id": "screws",
-      "title": "原厂螺丝组件",
-      "description": "原厂 STEP 中实际存在的几何部件",
-      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
-      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
-      "members": [
-        "factory_004",
-        "factory_005",
-        "factory_006",
-        "factory_007",
-        "factory_010",
-        "factory_011",
-        "factory_012",
-        "factory_013",
-        "factory_016",
-        "factory_017",
-        "factory_018",
-        "factory_019",
-        "factory_022",
-        "factory_023",
-        "factory_024",
-        "factory_025",
-        "factory_028",
-        "factory_029",
-        "factory_030",
-        "factory_031",
-        "factory_034",
-        "factory_035",
-        "factory_036",
-        "factory_037",
-        "factory_040",
-        "factory_041",
-        "factory_042",
-        "factory_043",
-        "factory_046",
-        "factory_047",
-        "factory_048",
-        "factory_049",
-        "factory_052",
-        "factory_053",
-        "factory_054",
-        "factory_055",
+        "factory_057",
         "factory_058",
         "factory_059",
         "factory_060",
@@ -1559,14 +1491,214 @@
         0,
         0,
         12
-      ]
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.027",
+      "centerWorldXMM": -39.6
+    },
+    {
+      "id": "channel-2",
+      "title": "第2路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_050",
+        "factory_051",
+        "factory_052",
+        "factory_053",
+        "factory_054",
+        "factory_055"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.024",
+      "centerWorldXMM": -30.8
+    },
+    {
+      "id": "channel-3",
+      "title": "第3路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_044",
+        "factory_045",
+        "factory_046",
+        "factory_047",
+        "factory_048",
+        "factory_049"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.021",
+      "centerWorldXMM": -22.0
+    },
+    {
+      "id": "channel-4",
+      "title": "第4路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_038",
+        "factory_039",
+        "factory_040",
+        "factory_041",
+        "factory_042",
+        "factory_043"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.018",
+      "centerWorldXMM": -13.2
+    },
+    {
+      "id": "channel-5",
+      "title": "第5路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_032",
+        "factory_033",
+        "factory_034",
+        "factory_035",
+        "factory_036",
+        "factory_037"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.015",
+      "centerWorldXMM": -4.4
+    },
+    {
+      "id": "channel-6",
+      "title": "第6路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_026",
+        "factory_027",
+        "factory_028",
+        "factory_029",
+        "factory_030",
+        "factory_031"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.012",
+      "centerWorldXMM": 4.4
+    },
+    {
+      "id": "channel-7",
+      "title": "第7路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_020",
+        "factory_021",
+        "factory_022",
+        "factory_023",
+        "factory_024",
+        "factory_025"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.009",
+      "centerWorldXMM": 13.2
+    },
+    {
+      "id": "channel-8",
+      "title": "第8路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_014",
+        "factory_015",
+        "factory_016",
+        "factory_017",
+        "factory_018",
+        "factory_019"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.006",
+      "centerWorldXMM": 22.0
+    },
+    {
+      "id": "channel-9",
+      "title": "第9路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_008",
+        "factory_009",
+        "factory_010",
+        "factory_011",
+        "factory_012",
+        "factory_013"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI.003",
+      "centerWorldXMM": 30.8
+    },
+    {
+      "id": "channel-10",
+      "title": "第10路接线组件",
+      "description": "左至右观察编号；对应同一原源装配单元",
+      "summary": "同一路的导电片、两侧螺钉及已有源小片共六个源网格一起抬起，保持原相对位置。相邻路由原绝缘隔板分开；编号用于观察定位。",
+      "behavior": "同一路两端由导电片连接；原CAD不作虚构导线或螺丝拧转动作。",
+      "members": [
+        "factory_002",
+        "factory_003",
+        "factory_004",
+        "factory_005",
+        "factory_006",
+        "factory_007"
+      ],
+      "offset": [
+        0,
+        0,
+        12
+      ],
+      "sourceAssemblyAncestor": "TB-15-LUOSI",
+      "centerWorldXMM": 39.6
     },
     {
       "id": "base",
-      "title": "原厂底座",
-      "description": "原厂 STEP 中实际存在的几何部件",
-      "summary": "这一组保留原厂几何和装配位置。分解间距是便于观察的教学设置。",
-      "behavior": "观察部件怎样与相邻组件配合；切换三维教学结构可查看功能和动作讲解。",
+      "title": "原厂绝缘底座",
+      "description": "原厂整体绝缘底座与隔板",
+      "summary": "原底座留位，十路隔板、固定孔和卡合部位全部保留。",
+      "behavior": "相邻路保持绝缘。",
       "members": [
         "factory_001"
       ],
@@ -1577,107 +1709,8 @@
       ]
     }
   ],
-  "teachingNote": "这些内部结构是按功能关系补建的三维教学示意，形状、尺寸和运动不声称为原厂工程复原。",
-  "topics": [
-    {
-      "id": "cover",
-      "title": "保护盖",
-      "description": "遮盖导电部位",
-      "bounds_mm": [
-        [
-          -53.500003814697266,
-          -12.0,
-          8.0
-        ],
-        [
-          53.500003814697266,
-          12.0,
-          10.000000953674316
-        ]
-      ],
-      "explodeOffset": [
-        0,
-        0,
-        45
-      ],
-      "geometryOrigin": "teaching",
-      "summary": "保护盖遮盖导电部位，拆开观察后能够看到各路导电片和压接螺丝。",
-      "behavior": "选择任一路高亮导电片，可以看到该路两端连接。相邻路通过绝缘结构隔开，不是整排互相连通。"
-    },
-    {
-      "id": "conductors",
-      "title": "导电片",
-      "description": "同一路两端连通",
-      "bounds_mm": [
-        [
-          -48.5,
-          -8.0,
-          -0.75
-        ],
-        [
-          48.5,
-          8.0,
-          0.75
-        ]
-      ],
-      "explodeOffset": [
-        0,
-        0,
-        17
-      ],
-      "geometryOrigin": "teaching",
-      "summary": "每一路用独立导电片连接两端接线位置。选择回路后高亮该路，其他路保持独立。",
-      "behavior": "选择任一路高亮导电片，可以看到该路两端连接。相邻路通过绝缘结构隔开，不是整排互相连通。"
-    },
-    {
-      "id": "screws",
-      "title": "压接螺丝",
-      "description": "压紧接线鼻",
-      "bounds_mm": [
-        [
-          -47.30000305175781,
-          -7.300000190734863,
-          0.5
-        ],
-        [
-          47.30000305175781,
-          7.3000006675720215,
-          5.500000476837158
-        ]
-      ],
-      "explodeOffset": [
-        0,
-        0,
-        25
-      ],
-      "geometryOrigin": "teaching",
-      "summary": "螺丝将合适的接线鼻压紧在导电片上。原厂分解时螺丝与所属接线组件保持关联。",
-      "behavior": "选择任一路高亮导电片，可以看到该路两端连接。相邻路通过绝缘结构隔开，不是整排互相连通。"
-    },
-    {
-      "id": "insulation",
-      "title": "隔离与底座",
-      "description": "相邻回路互相绝缘",
-      "bounds_mm": [
-        [
-          -53.500003814697266,
-          -11.000000953674316,
-          -8.0
-        ],
-        [
-          53.500003814697266,
-          11.000000953674316,
-          5.000000476837158
-        ]
-      ],
-      "explodeOffset": [
-        0,
-        0,
-        0
-      ],
-      "geometryOrigin": "teaching",
-      "summary": "绝缘底座和隔板隔开相邻回路，防止把多路端子误认为同一条导体。",
-      "behavior": "选择任一路高亮导电片，可以看到该路两端连接。相邻路通过绝缘结构隔开，不是整排互相连通。"
-    }
-  ]
+  "sourceDisclosure": "三维仅用原厂CAD已有62个网格；十路接线组件按原装配父级与空间对应编组，螺丝随所属导电片一起移动。分解间距用于观察，不代表实际拆装顺序。",
+  "qualityStatus": "original-source-observation-refined; complete-internals-not-certified",
+  "runtimeGeometryPolicy": "original-cad-only; no synthetic internal geometry",
+  "factoryGroupingPolicy": "Original geometry and original hierarchy unchanged; named observation groups and display gaps are authored visualization settings."
 }
